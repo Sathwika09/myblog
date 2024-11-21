@@ -1,5 +1,8 @@
-import React from "react";
-import me from "C:/Users/dell/Desktop/myblog/me.jpeg"
+
+import me from "/me.jpeg"
+
+import {  Timeline } from "flowbite-react";
+import {  HiCalendar } from "react-icons/hi";
 export default function About() {
   return (
     <div className='min-h-screen flex items-center justify-center'>
@@ -33,6 +36,40 @@ export default function About() {
         them as well. We believe that a community of learners can help
         each other grow and improve.
       </p>
+
+      <Timeline>
+      <Timeline.Item>
+        <Timeline.Point icon={HiCalendar} />
+        <Timeline.Content>
+          <Timeline.Time>Dec 2021-now</Timeline.Time>
+          <Timeline.Title >SVNIT SURAT </Timeline.Title>
+          <Timeline.Body>
+            Currently Pursuing Computer Science Engineering in SVNIT SURAT.
+          </Timeline.Body>
+          
+        </Timeline.Content>
+      </Timeline.Item>
+      <Timeline.Item>
+        <Timeline.Point icon={HiCalendar} />
+        <Timeline.Content>
+          <Timeline.Time>2018-2020</Timeline.Time>
+          <Timeline.Title>Sri Chaitanya Institute</Timeline.Title>
+          <Timeline.Body>
+            Finished my intermediate here with an annual score of 96.7% also with an efficient triaining of managing stress.
+          </Timeline.Body>
+        </Timeline.Content>
+      </Timeline.Item>
+      <Timeline.Item>
+        <Timeline.Point icon={HiCalendar} />
+        <Timeline.Content>
+          <Timeline.Time>2016-2018</Timeline.Time>
+          <Timeline.Title>Dr.KKR'S Goutham School</Timeline.Title>
+          <Timeline.Body>
+            Finished my schooling here.
+          </Timeline.Body>
+        </Timeline.Content>
+      </Timeline.Item>
+    </Timeline>
     </div>
   </div>
 </div>

@@ -12,7 +12,7 @@ export default function FooterCom() {
               className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
             >
               <span className='px-2 py-1 rounded-lg text-white bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-400'>
-                Sathwika's Blog
+                S's Blog
               </span>
               
             </Link>
@@ -27,7 +27,7 @@ export default function FooterCom() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Sathwika's Blog
+                  S's Blog
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
